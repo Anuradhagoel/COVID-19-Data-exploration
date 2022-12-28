@@ -54,6 +54,7 @@ GROUP BY date
 ORDER BY 1,2;
 
 --2 table combination (total population vs vaccination)
+-- percentage of people who have received atleast one vaccine
 WITH popvac (continent, location, date, population, new_vaccinations, peoplevaccinated)
 AS
 (
